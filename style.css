@@ -1,4 +1,4 @@
-  body {
+ body {
     background-image: url(assets/bg-image.jpg);
     background-size: cover;
   }
@@ -18,9 +18,18 @@
     color: #573a37;
   }
 
+  section + section {
+    margin-top: 24px;
+  }
+
+  #about p + p {
+    margin-top: 12px;
+  }
+
   h1 {
     line-height: 140%;
     font-size: 40px;
+    margin-bottom: 4px;
   }
 
   h2 {
@@ -29,4 +38,15 @@
 
   h1, h2 {
     color: #291B1A;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    line-height: 150%;
+  }
+
+  main {
+    padding: 24px;
+  }
+
+  ul {
+    padding-left: 24px;
   }
